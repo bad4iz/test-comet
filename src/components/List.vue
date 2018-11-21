@@ -1,9 +1,9 @@
 <template>
     <v-card>
         <v-toolbar color="green" dark>
-            <v-toolbar-title>list: {{getList(this.id).name}}</v-toolbar-title>
+            <v-toolbar-title>list: {{getList(id).name}}</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn fab dark color="cyan" >
+            <v-btn fab dark litle color="cyan"  @click="setCurrentComponentThis">
                 <v-icon dark>edit</v-icon>
             </v-btn>
         </v-toolbar>
@@ -36,6 +36,15 @@
         'getList',
       ])
     },
+    methods:{
+    setCurrentComponentThis: function () {
+      this.$store.dispatch('setCurrentComponent', {name:this.$options.name, id:this.id})
+    },
+    // раскоментировать и проверить работу асинхр
+    // card: function () {
+    //   return getElement(this.id);
+    // }
+  }
   }
 </script>
 

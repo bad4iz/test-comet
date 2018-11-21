@@ -39,10 +39,10 @@
     computed: {
       ...mapGetters([
         // Mounts the "card" getter to the scope of your component.
-        'getElement'
+        'getDashboard'
       ]),
       dashboard: function () {
-        return this.getElement(this.id);
+        return this.getDashboard(this.id);
       }
     },
   }

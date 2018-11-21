@@ -13,7 +13,8 @@
     name: "Panel",
     components: {
       CardForm: ()=> import('@/components/CardForm'),
-      DashboardForm: ()=> import('@/components/DashboardForm')
+      DashboardForm: ()=> import('@/components/DashboardForm'),
+      ListForm: ()=> import('@/components/ListForm')
     },
     computed: {
       ...mapGetters([
