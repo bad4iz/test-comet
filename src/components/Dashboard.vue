@@ -22,7 +22,7 @@
             </v-layout>
         </v-flex>
         <v-flex xs3>
-            <!--<panel/>-->
+            <panel/>
         </v-flex>
     </v-layout>
 </template>

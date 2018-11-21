@@ -5,7 +5,8 @@ export const getDashboard = (state) => id => state.dashboards[id];
 export const getCard = state => id => state.cards[id];
 export const getList = (state) => id => state.lists[id];
 
-export const getCurrentComponent = state => state.list[id];
+export const getCurrentComponent = state => state.currentComponent;
+export const getCurrentId = state => state.currentId;
 
 export const getScore = state => id => state.list[id].score;
 

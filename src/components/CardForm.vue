@@ -8,7 +8,7 @@
 
             <v-card-title primary-title>
                 <div>
-                    <h3 class="headline mb-0">{{getElement(id).name}}</h3>
+                    <h3 class="headline mb-0">{{getCard(id).name}}</h3>
                 </div>
             </v-card-title>
 
@@ -18,7 +18,7 @@
             </v-card-actions>
         </v-card>
         forma
-        {{ getElement(id)}}
+        {{ getCard(id)}}
     </div>
 </template>
 
@@ -40,7 +40,7 @@
     computed: {
       ...mapGetters([
           // Mounts the "card" getter to the scope of your component.
-          'getElement'
+          'getCard'
         ])
     }
   }
