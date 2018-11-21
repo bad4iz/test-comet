@@ -1,14 +1,7 @@
-export const deleteCard = ({ commit }, id) => {
-  commit('deleteCard', id);
+export const setCurrentComponent = ({ commit }, {name, id}) => {
+  commit('setCurrentComponent',  {name, id});
 }
-export const addCard = ({ commit }, parent) => {
-  commit('addCard', parent);
-  commit('addCard', parent);
-  commit('addCard', parent);
-  commit('addCard', parent);
-  commit('addCard', parent);
 
-}
 export const increment = ({ dispatch, commit }, id) => {
   commit('increment', id);
 }
