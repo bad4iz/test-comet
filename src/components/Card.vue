@@ -3,7 +3,7 @@
         <v-toolbar color="teal" dark>
             <v-toolbar-title>Card: {{getCard(id).name}}</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn fab dark color="cyan" @click="setCurrentComponentThis">
+            <v-btn fab dark small color="cyan" @click="setCurrentComponentThis">
                 <v-icon dark>edit</v-icon>
             </v-btn>
         </v-toolbar>

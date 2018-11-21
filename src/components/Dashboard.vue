@@ -10,7 +10,7 @@
             <v-btn flat target="_blank" @click="setCurrentComponentThis">
                 <span class="mr-2">click me</span>
             </v-btn>
-            <v-btn fab dark color="cyan" @click="setCurrentComponentThis">
+            <v-btn fab dark small color="cyan" @click="setCurrentComponentThis">
                 <v-icon dark>edit</v-icon>
             </v-btn>
         </v-toolbar>

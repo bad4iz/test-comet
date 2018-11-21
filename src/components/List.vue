@@ -3,7 +3,7 @@
         <v-toolbar color="green" dark>
             <v-toolbar-title>list: {{getList(id).name}}</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn fab dark litle color="cyan"  @click="setCurrentComponentThis">
+            <v-btn fab dark small color="cyan"  @click="setCurrentComponentThis">
                 <v-icon dark>edit</v-icon>
             </v-btn>
         </v-toolbar>
