@@ -4,35 +4,27 @@ export default {
   list: {
     0: {
       id: 0,
-      check: true,
-      score: 0,
-      value: '',
-      subcards: [1],
-
+      name: 'Вася',
+      fio: 'Вася Иванович Иванов',
+      comment: 'aaa',
     },
     1: {
       id: 1,
-      check: true,
-      score: 2,
-      value: 'one',
-      subcards: [2, 3],
-      parent: 0,
+      name: 'Петя',
+      fio: 'Петя Петрович Петров',
+      comment: 'one',
     },
     2: {
       id: 2,
-      check: false,
-      score: 0,
-      value: 'two',
-      subcards: [],
-      parent: 1,
+      name: 'Настя',
+      fio: 'Настя Валкановна Огурцова',
+      comment: 'two',
     },
     3: {
       id: 3,
-      check: false,
-      score: 0,
-      value: 'three',
-      subcards: [],
-      parent: 1,
+      name: 'Вера' ,
+      fio: 'Вера Екинешна Удмуктка',
+      comment: '',
     },
   }
 };

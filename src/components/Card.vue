@@ -1,10 +1,22 @@
 <template>
-
+    <div >
+        card
+    </div>
 </template>
 
 <script>
     export default {
-        name: "Card"
+      props: {
+        id: {
+          type: Number,
+          default: 1,
+        },
+        darkTheme:{
+          type: Boolean,
+          default: false,
+        }
+      },
+    name: "Card"
     }
 </script>
 

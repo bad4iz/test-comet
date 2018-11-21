@@ -1,10 +1,15 @@
 <template>
-
+    <div class="a">
+        <card/>
+    </div>
 </template>
 
 <script>
     export default {
-        name: "List"
+      name: "List",
+      components: {
+        card: () => import('../components/Card')
+      }
     }
 </script>
 
